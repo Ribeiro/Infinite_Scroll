@@ -1,0 +1,10 @@
+<% @articles.each do |article| %>
+      <div class="article">
+        <div class="title"><h3><%= article.title %></h3></div>
+        <div class="author"><%= article.author %></div>
+        <div class="publication-date"><%= article.publication_date %></div>
+        <div class="blurb"><%= truncate(article.body, length: 200) %></div>
+        <div class="read-more"><%= link_to 'Read More', article %></div>
+      </div>
+      <hr>
+    <% end %>

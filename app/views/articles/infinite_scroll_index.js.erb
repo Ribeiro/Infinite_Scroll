@@ -1,0 +1,4 @@
+<% articles_list  = j render 'articles_list' %>
+<% pagination_nav = j render 'pagination_nav' %>
+$("#articles").append("<%= articles_list %>");
+$("#pagination-nav").html("<%= pagination_nav %>");

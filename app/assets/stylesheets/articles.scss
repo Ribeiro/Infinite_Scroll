@@ -1,0 +1,29 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#blog {
+        width: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1em 1em 1em;
+        border: 4px solid #ccc;
+      }
+    #articles {
+      height: 50em;
+      overflow: auto;
+    }
+    .author {
+      font-style: italic;
+      color: #abc;
+    }
+    .blurb {
+      margin-top: 1em;
+    }
+    .publication-date {
+      font-size: smaller;
+      color: #ccc;
+    }
+
+    #pagination-nav {
+      display: none;
+    }

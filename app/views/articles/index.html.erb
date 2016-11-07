@@ -1,0 +1,12 @@
+<div id="blog">
+      <h1>Infinite Scroll</h1>
+      <h2>A UI/UX Journal</h2>
+      <div id="articles">
+        <div id="articles-list">
+          <%= render 'articles_list' %>
+        </div>
+        <div id='pagination-nav'>
+          <%= paginate @articles, remote: true %>
+        </div>
+      </div>
+    </div>
